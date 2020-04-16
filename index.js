@@ -15,10 +15,8 @@ Create a variable called `monthlyInterestRate` and give it the value of interest
 
 Create another variable called `periods` and give it the value of years*12.
 */
-
-const monthlyInterestRate = interest_rate / 12;
-
-console.log(monthlyInterestRate);
+var monthlyInterestRate = interest_rate / 12;
+var periods = year*12;
 
 
 // 🏡 Task 2: Harder Math
@@ -31,15 +29,6 @@ Hint #2: you'll need to use the `math` object for parts of this calculation!
 
 When your math is correct, monthlyRate will equal 1073.64
 */
-const P = principal;
-const I = interest_rate;
-const N = 3;
-const M = P [ I ( 1 + I )^N ] / [ ( 1 + I )^N – 1 ];
-
-const monthlyRate = M;
-
-console.log(monthlyRate);
-
 
 
 // 🏡 Task 3: Function
